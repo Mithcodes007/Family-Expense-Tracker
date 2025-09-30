@@ -58,6 +58,7 @@ The app calculates the remaining balance in real-time.
 Clone my repository:
 
 git clone https://github.com/Mithcodes007/Family-Expense-Tracker.git
+
 cd Expense-Tracker
 
 
