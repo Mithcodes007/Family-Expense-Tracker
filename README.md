@@ -70,7 +70,5 @@ Run the application with Streamlit:
 
 streamlit run app.py
 
-**Here are some screenshots of the actual working of this project**
 
-(screenshots/screenshot 2025-09-30 192043.png)
 
