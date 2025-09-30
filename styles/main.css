@@ -1,0 +1,35 @@
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+}
+
+/* Page Background */
+[data-testid="stAppViewContainer"] {
+    background-color: #2e2e2e; /* darker neutral background */
+    background-image: 
+        repeating-radial-gradient(circle at 0 0, transparent 0, #44f7a9 40px),
+        repeating-linear-gradient(#00000099, #00000099);
+    opacity: 0.95;
+}
+
+/* General text styling */
+[data-testid="stAppViewContainer"] * {
+    color: #ffffff !important;     /* force text white */
+    text-shadow: 1px 1px 2px #000; /* subtle shadow for contrast */
+}
+
+/* Input fields in black */
+input, textarea, select {
+    background-color: #000000 !important; /* black background */
+    color: #ffffff !important;           /* white text inside input */
+    border: 1px solid #44f7a9 !important; /* optional: add neon border */
+    border-radius: 6px !important;
+    padding: 6px;
+}
