@@ -71,5 +71,5 @@ Run the application with Streamlit:
 streamlit run app.py
 
 **Here are some screenshots of the actual working of this project**
-![Alt Text](styles/screenshots/screenshot 2025-09-30 192043.png)
+(styles/screenshots/screenshot2025-09-30192043.png)
 
