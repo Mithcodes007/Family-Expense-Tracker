@@ -11,13 +11,14 @@ header {
 }
 
 /* Page Background */
+/* Page Background */
 [data-testid="stAppViewContainer"] {
-    background-color: #2e2e2e; /* darker neutral background */
-    background-image: 
-        repeating-radial-gradient(circle at 0 0, transparent 0, #44f7a9 40px),
-        repeating-linear-gradient(#00000099, #00000099);
-    opacity: 0.95;
+    background-color: #000000 !important; /* pure black background */
+    background-image: none !important;    /* remove gradient overlay */
+    opacity: 1 !important;                /* remove transparency */
 }
+
+
 
 /* General text styling */
 [data-testid="stAppViewContainer"] * {
